@@ -1,6 +1,6 @@
 {
   "name": "@breadhead/nest-throwable-bus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Wrapper for Nest Command Bus with the possibility of throwing exceptions",
   "main": "dist/index.js",
   "scripts": {
@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/breadhead/nest-throwable-bus#readme",
   "dependencies": {
-    "@nestjs/common": "^5.3.11",
     "@nestjs/cqrs": "^5.1.1"
   },
   "devDependencies": {
