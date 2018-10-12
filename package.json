@@ -1,6 +1,6 @@
 {
   "name": "@breadhead/nest-throwable-bus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for Nest Command Bus with the possibility of throwing exceptions",
   "main": "dist/index.js",
   "scripts": {
@@ -33,5 +33,8 @@
     "tslint": "^5.11.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.1.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
