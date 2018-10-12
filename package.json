@@ -1,5 +1,5 @@
 {
-  "name": "nest-throwable-bus",
+  "name": "@breadhead/nest-throwable-bus",
   "version": "1.0.0",
   "description": "Wrapper for Nest Command Bus with the possibility of throwing exceptions",
   "main": "dist/index.js",
