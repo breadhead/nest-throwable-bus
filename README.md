@@ -1,6 +1,6 @@
 # Nest Throwable Bus
 
-In the [CQRS nodule for Nest Framework](https://github.com/nestjs/cqrs), we found one minor problem. Exceptions from the handler are not thrown into the calling code. In the original repository, a [solution](https://github.com/nestjs/cqrs/issues/3) was proposed that would severely pollute the code. Our solution allows us to continue to work with the module as before, but to get a normal work with exceptions.
+In the [CQRS module for Nest Framework](https://github.com/nestjs/cqrs) we found one minor problem. Exceptions from the handler aren't thrown into the calling code. In the original repository a [solution](https://github.com/nestjs/cqrs/issues/3) was proposed that it would severely pollute the code. Our solution allows to continue working with the module as before, but with improved exception handling.
 
 ## Instalation
 
