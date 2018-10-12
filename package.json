@@ -2,9 +2,11 @@
   "name": "nest-throwable-bus",
   "version": "1.0.0",
   "description": "Wrapper for Nest Command Bus with the possibility of throwing exceptions",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "yarn lint",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/breadhead/nest-throwable-bus/issues"
   },
-  "homepage": "https://github.com/breadhead/nest-throwable-bus#readme"
+  "homepage": "https://github.com/breadhead/nest-throwable-bus#readme",
+  "dependencies": {
+    "@nestjs/common": "^5.3.11",
+    "@nestjs/cqrs": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.1.3"
+  }
 }
