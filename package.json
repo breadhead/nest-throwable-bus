@@ -29,7 +29,7 @@
     "@nestjs/cqrs": "^5.1.1"
   },
   "devDependencies": {
-    "@types/node": "^10.11.7",
+    "@types/node": "^11.9.2",
     "tslint": "^5.11.0",
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.1.3"
